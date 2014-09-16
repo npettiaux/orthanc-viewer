@@ -1,16 +1,19 @@
 Orthanc Viewer
 ==============
 
-This is the source code of a lightweight, native viewer for medical
+This is the source code of a lightweight, native viewer of medical
 images in the DICOM format. The viewer is built on the top of the REST
-API of Orthanc, a DICOM server.
-
-This software is still work-in-progress.
+API of Orthanc, a DICOM server. It can display 3D images, and is able
+to display nuclear medicine images (PET-CT fusion).
 
 The original author of the code is Quentin Smetz, who developed this
 viewer as a part of his Master's degree in computer science at the
 University of Liège (Belgium). The code was subsequently packaged and
-publicly released by Sébastien Jodogne.
+publicly released by Sébastien Jodogne as a part of the Orthanc
+project.
+
+This software is work-in-progress and is still experimental. It cannot
+be used for diagnostic or therapeutic purposes.
 
 
 Requirements
