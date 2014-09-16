@@ -1,0 +1,24 @@
+Orthanc Viewer
+==============
+
+This is the source code of a lightweight, native viewer for medical
+images in the DICOM format. The viewer is built on the top of the REST
+API of Orthanc, a DICOM server.
+
+This software is still work-in-progress.
+
+The original author of the code is Quentin Smetz, who developed this
+viewer as a part of his Master's degree in computer science at the
+University of Liège (Belgium). The code was subsequently packaged and
+publicly released by Sébastien Jodogne.
+
+
+Requirements
+------------
+
+To build this software, the "Orthanc Client" library and development
+headers must be installed. Official packages are notably available for
+Fedora >= 18 (cf. "orthancclient-devel") and Debian >= Jessie
+(cf. "liborthancclient-dev").
+
+You will also need to install Qt, VTK and CMake.
